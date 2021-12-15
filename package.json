@@ -1,8 +1,8 @@
 {
   "version": "0.0.1",
-  "main": "jano.js",
+  "main": "polat.js",
   "scripts": {
-    "start": "node jano.js"
+    "start": "node polat.js"
   },
   "dependencies": {
     "express": "^4.17.1",
