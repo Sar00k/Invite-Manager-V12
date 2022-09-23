@@ -60,7 +60,7 @@ POLAT.on("message", message => {
      .addField("`Usres`",  `**${POLAT.users.cache.size}  Users**`, true)
     
     
-     .addField( "`developer bot` ",`<@669072128922091541>`,true)
+     .addField( "`developer bot` ",`<@951495275590066226>`,true)
 
 
       .setImage(""
