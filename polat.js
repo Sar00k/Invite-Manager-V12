@@ -22,14 +22,14 @@ const fs = require("fs");
 const Discord = require ("discord.js")
 const moment = require ("moment")
 const POLAT = new Discord.Client();
-const prefix = "p!";
+const prefix = "+";
 
 
-POLAT.login("");
+POLAT.login("MTAyNzEyOTAwMTEwMzMzOTU3MA.GptkB_.VZ9kBKNPW-l");
 POLAT.on("ready", async () => {
   console.log(`Logged in as ${POLAT.user.username}!`);
   POLAT.user.setStatus("ONLINE");
-  POLAT.user.setActivity(`j!help`, { type: "WATCHING" });
+  POLAT.user.setActivity(`+help`, { type: "WATCHING" });
   POLAT.guilds.cache.forEach(g => {
     if (g.member(POLAT.user).hasPermission("ADMINISTRATOR")) {
       g.fetchInvites().then(guildInvites => {});
